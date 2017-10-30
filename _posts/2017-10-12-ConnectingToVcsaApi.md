@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: "How to Establish a Session and Authenticate with the vSphere 6.5 API"
 published: true
 date: 2017-10-12 14:11:00
