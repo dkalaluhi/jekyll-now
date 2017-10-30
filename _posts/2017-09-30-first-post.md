@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "First post with Jekyll"
+published: true
 date: 2017-09-30 16:53:00
 categories: projects jekyll
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "How to Establish a Session and Authenticate with the vSphere 6.5 API"
+published: true
 date: 2017-10-12 14:11:00
 categories: projects vcsa python rest
 ---
@@ -13,7 +14,7 @@ So the first step is to set-up a basic auth key-value pair. As [@chriswahl](http
 
 In my example below, we are gathering some user input for credentials. Namely, we are using `input()` and `getpass()`. We also bring in your vcsa fqdn, to build the URI.
 
-```python
+{% highlight python %}
 import requests
 import getpass
 from requests.auth import HTTPBasicAuth
@@ -26,15 +27,16 @@ headers = {'Content-Type': 'application/json', 'Accept': 'application/json'}
 requests.packages.urllib3.disable_warnings()
 
 r = requests.post(uri, auth=HTTPBasicAuth(input('username: '), getpass.getpass('password: ')), headers=headers, verify=False)
-```
+{% endhighlight %}
 
 In the above code, what we've done is; Brought in the name of your vcsa, Built the URI, using `f-Strings`, built some generic headers to send with our request, supressed warnings (like SSL cert warnings), and sent the POST request to the vcsa server. At this point, if we take a look at `r`, we'll see that we got back `<Response [200]>` which is what we are looking for. From this point on, we can exchange the token for user/password credentials.
 
-```python
+
+{% highlight python %}
 response = r.json()
 token = response['value']
 headers['vmware-api-session-id'] = token
-```
+{% endhighlight %}
 
 What we are doing here, is taking the response that we got back, and pulling the token out. This bit is fairly self explanatory, but we are pulling the json out of the `r` and assigning it to response. From there we pull the token out of the json, and inject that into the headers we built above. There are two points to make here.
 
@@ -49,15 +51,18 @@ Now that we have our token and added it to our `headers`, we can make calls to o
 
 This is a simple call using the token we got above from the ..com/vmware/cis/session endpoint. It just pulls back the inventory for vcenter.
 
-```python
+
+{% highlight python %}
 r1 = requests.get(f'https://{fqdn}/rest/vcenter/vm', headers=headers, verify=False)
 x1 = r1.json()
 print(json.dumps(x1, indent=4, sort_keys=True))
-```
+{% endhighlight %}
+
 
 Now we can make requests using our `token`, that we pass in the python dictionary, `headers`, pulling the json out with that `x1` variable, and then printing to our screen, in a way that we can actually read. and it looks something like this:
 
-```json
+
+{% highlight json %}
 {
     "value": [
         {
@@ -74,7 +79,7 @@ Now we can make requests using our `token`, that we pass in the python dictionar
             "power_state": "POWERED_ON",
             "vm": "vm-42"
         },
-```
+{% endhightlight %}
 
 From this we can do a multitude of other things with the information we got back, based on other endpoints if we wanted to. And that's all there is to it!
 
