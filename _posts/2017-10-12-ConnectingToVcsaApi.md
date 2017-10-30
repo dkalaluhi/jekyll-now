@@ -80,7 +80,7 @@ Now we can make requests using our `token`, that we pass in the python dictionar
             "power_state": "POWERED_ON",
             "vm": "vm-42"
         },
-{% endhightlight %}
+{% endhighlight %}
 
 From this we can do a multitude of other things with the information we got back, based on other endpoints if we wanted to. And that's all there is to it!
 
