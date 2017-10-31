@@ -4,7 +4,8 @@ comments: true
 title: "How to Establish a Session and Authenticate with the vSphere 6.5 API"
 published: true
 date: 2017-10-12 14:11:00
-categories: projects vcsa python rest
+categories: projects tech
+tags: python rest vcsa
 ---
 There have been plenty of people to post how to connect to the vcsa's restful api: Typically around powershell and powercli. One of my favorites is from [@chriswahl](https://twitter.com/chriswahl) and is available at [Wahl Network](https://wahlnetwork.com/2017/02/24/vsphere-6-5-restful-api/). If you're a powershell person, please check that out! If you've read my [first post](https://dkalaluhi.github.io/projects/jekyll/2017/09/30/first-post.html), you already know that what I am doing here is learning. So keep that in mind while looking at [my code](https://github.com/dkalaluhi/restDemo). You should also know that this works explicitly with python-3.6, due to the use of f-strings.
 
