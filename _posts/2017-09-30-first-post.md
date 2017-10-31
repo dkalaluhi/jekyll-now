@@ -5,8 +5,8 @@ title: "First post with Jekyll"
 published: true
 date: 2017-09-30 16:53:00
 categories: projects tech
-tags: jekyll
 ---
+
 ...and also my first learning experience.
 
 Ok, this may not actually be my **first** learning experience. I have made it through 37 years, so somewhere along the way, I did learn something. But this is first one I'm blogging about: Jekyll.
