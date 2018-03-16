@@ -18,7 +18,7 @@ While listening to Rebecca's talk a few weeks ago, something about how she ended
 
 ### The Questions
 
-![](https://github.com/dkalaluhi/dkalaluhi.github.io/_images/42.png | =320x118)
+![The answer to everything](https://github.com/dkalaluhi/dkalaluhi.github.io/_images/42.png)
 
 __1) What don't I know?__
 
