@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: "Tech Conferences and Mental Health"
-published: false
+published: true
 date: 2018-02-28 14:11:00
 categories: [conferences mental health]
 ---
