@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: "Choose Your Own Adventure"
-published: false
+published: true
 date: 2018-08-03 14:31:00
 categories: [career, knowledge, self analysis]
 ---
@@ -18,6 +18,7 @@ While listening to Rebecca's talk a few weeks ago, something about how she ended
 
 ### The Questions
 
+![](_images/42.png | =320x118)
 
 __1) What don't I know?__
 
