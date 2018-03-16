@@ -16,9 +16,10 @@ I often feel stuck in not only my career and career progression, but in my curre
 While listening to Rebecca's talk a few weeks ago, something about how she ended up where she is now, struck me as brilliant. She asked a simple question; "what am I looking for?" and then hit the google machine to find companies that matched her criteria. Well, that was easy! So I started asking questions today, three of them actually, and I think these will really help me not get stale in my skills and knowledge.
 
 
-### The Questions
+## The Questions
 
-![test](/images/42.png)
+![](/images/42.png)
+
 
 __1) What don't I know?__
 
@@ -43,11 +44,15 @@ __3) Pick a number one item...__
 
 ...and make a card for it. I personally title the card, "Name of Item - How to do I get there?" This works for me. On this card, I write the steps to getting to the title, duh! If this item happens to be, POTUS, then you're doing it wrong. Ultimately, this item should be roughly 3-5 steps. If it's a higher level certification, step 1, would probably be getting the prerequisite cert. My workflow for my RHCA is, as follows:
 
+![](/images/noteCard.jpg)
+
 
 > "He sat and thought and thought, but no idea would come." -The Hobbit pg. 188 
 
 
 Now that all of that is done, repeat step 3 for all of your number one's. And you're done...at least with the self analysis part. This whole process shouldn't really take you longer than an hour or so to complete. If you spend too much time on this, you're doing what you need to be doing:
+
+![](/images/nemo.jpg)
 
 
 So, you don't like this method? you've got something better? I'd love to hear about it in the comments! And, like always, you can email me [here](mailto:dave.kalaluhi@gmail.com), or leave a comment below.
