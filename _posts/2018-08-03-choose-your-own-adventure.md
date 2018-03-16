@@ -44,15 +44,14 @@ __3) Pick a number one item...__
 
 ...and make a card for it. I personally title the card, "Name of Item - How to do I get there?" This works for me. On this card, I write the steps to getting to the title, duh! If this item happens to be, POTUS, then you're doing it wrong. Ultimately, this item should be roughly 3-5 steps. If it's a higher level certification, step 1, would probably be getting the prerequisite cert. My workflow for my RHCA is, as follows:
 
-![](/images/noteCard.jpg {width=300 height=400})
-
+<img src="/images/noteCard.jpg" align="center" width="300" height="400"> 
 
 > "He sat and thought and thought, but no idea would come." -The Hobbit pg. 188 
 
 
 Now that all of that is done, repeat step 3 for all of your number one's. And you're done...at least with the self analysis part. This whole process shouldn't really take you longer than an hour or so to complete. If you spend too much time on this, you're doing what you need to be doing:
 
-<img src="/images/42.png" width="300" height="400">
+<img src="/images/nemo.jpg" align="center">
 
 
 So, you don't like this method? you've got something better? I'd love to hear about it in the comments! And, like always, you can email me [here](mailto:dave.kalaluhi@gmail.com), or leave a comment below.
