@@ -18,7 +18,7 @@ While listening to Rebecca's talk a few weeks ago, something about how she ended
 
 ### The Questions
 
-![The answer to everything]({{ "/_images/42.png" }} | absolute_path)
+![The answer to everything]({{ "/_images/42.png" | absolute_path }})
 
 __1) What don't I know?__
 
