@@ -10,7 +10,7 @@ categories: [career, knowledge, self analysis]
 I am completly, unashamingly stealing that title from [@rebeccafitzhugh](https://twitter.com/RebeccaFitzhugh)'s general session, at the [@WPAVMUG](https://twitter.com/WPVMUG) User Con that was held Feburary 28th.
 
 
-I often feel stuck in not only my career and career progression, but in my current role as well. This doesn't really have anything to do with title advancement, or switching companies, but how I measure myself and beter myself. My yard stick is long: I've been lucky enough to surround myself with  really, REALLY smart people. People that know way more than me, are better at just about everything I do than me, but who are none-the-less, willing to put up with me.
+I often feel stuck in not only my career and career progression, but in my current role as well. This doesn't really have anything to do with title advancement, or switching companies, but how I measure myself and better myself. My yard stick is long: I've been lucky enough to surround myself with  really, REALLY smart people. People that know way more than me, are better at just about everything I do than me, but who are none-the-less, willing to put up with me.
 
 
 While listening to Rebecca's talk a few weeks ago, something about how she ended up where she is now, struck me as brilliant. She asked a simple question; "what am I looking for?" and then hit the google machine to find companies that matched her criteria. Well, that was easy! So I started asking questions today, three of them actually, and I think these will really help me not get stale in my skills and knowledge.
