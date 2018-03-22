@@ -1,0 +1,10 @@
+{% capture count_words %} 
+	{{ page.content | number_of_words }} 
+{% endcapture %}
+
+{% capture time_words %} 
+	{{count_words | divided_by: 5}} 
+{% endcapture %} 
+
+{{count_words}} Words
+Reading Time:  ~ {{time_words | divided_by: 60}} min.
