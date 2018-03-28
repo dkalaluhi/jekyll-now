@@ -76,3 +76,5 @@ And if you check the man page, you would see that this command is used to instal
 {% endhighlight %}
 
 Once that is all complete, you should be able to ssh to the system where you installed your public key, and if you did not include a passphrase, you won't be prompted to enter it.
+
+You can always contact me via [twitter](https://twitter.com/dkalaluhi) or in the comments below. Feel free to leave any constructive feedback, positive or negitive.
