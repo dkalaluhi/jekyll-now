@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 <p>
-    I have been in the IT field for about 20 years. I started on Tier I support desks, and I am now a Linux and Virtualization Engineer focusing on Red Hat Enterprise Linux, VMware and Automation. I currently hold my RHCSA - 160-042-693 - Current until March 04, 2019, and I am working towards my RHCE, through my gracious employeer, expected June, 2018. I am also a <a href="https://access.redhat.com/accelerators" target="_blank"> 2018 Red Hat Accelerator!</a>
+    I have been in the IT field for about 20 years. I started on Tier I support desks, and I am now a Linux and Virtualization Architect, focusing on Red Hat Enterprise Linux, VMware and Automation. I currently hold my RHCSA - 160-042-693 - Current until March 04, 2019, and I am working towards my RHCE, through my gracious employeer, expected June, 2018. I am also a <a href="https://access.redhat.com/accelerators" target="_blank"> 2018 Red Hat Accelerator!</a>
 </p>
 
 <p>
