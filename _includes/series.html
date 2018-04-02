@@ -13,7 +13,8 @@
 {% endif %}
 <div class="panel seriesNote">
     <p>
-    This article is <strong>Part {{ idx }}</strong> in a <strong>{{ count }}-Part</strong> Series.
+    This article is part of a series.
+    <hr>
     </p>
     <ul>
     {% assign count = '0' %}
@@ -23,8 +24,10 @@
         <li>Part {{ count }} - 
         {% if page.url == post.url %}
             This Article
+            <hr>
         {% else %}
             <a href="{{post.url}}">{{post.title}}</a>
+            <hr>
         {% endif %}
         </li>
     {% endif %}
