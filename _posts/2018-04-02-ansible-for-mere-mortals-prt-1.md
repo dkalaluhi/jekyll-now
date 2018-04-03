@@ -4,7 +4,7 @@ comments: true
 title: "Ansible for Mere Mortals - Part I"
 published: true
 date: 2018-04-02
-categories: [ansible, linux, automation, orchestration]
+categories: [ansible, linux, automation, orchestration, Red Hat Accelerators]
 series: "Ansible for mere mortals"
 ---
 
@@ -79,5 +79,7 @@ This will have to be done all of the managed nodes in your environment. If there
 So what we've done so far is; Installed Ansible on our control node and set up ssh on our managed nodes for key-based authentication. In part 2 of *Ansible for Mere Mortals*, we'll create our inventory file and run some ad-hoc commands with ansible to make sure everything is working correctly.
 
 As always, feel free to contact me via [twitter](https://twitter.com/dkalaluhi) or in the comments below. Please leave any constructive feedback, positive or negative.
+
+Ask me about becoming a <a href="https://access.redhat.com/accelerators" target="_blank">Red Hat Accelerator!</a>
 
 {% include series.html %}
