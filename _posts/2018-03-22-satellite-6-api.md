@@ -123,3 +123,7 @@ Next, is the `&search=name++%21%7E+virt-who`. All that says, is give me all syst
 In the next two function calls, there is one more search query, `&search=hostgroup+%7E+Dev+and+name....`. Well we know from above that the `%7E` is literally a tilde, `~`. So you can read that line like, search=hostgroup LIKE(~)Dev and name NOT LIKE(!~)virt-who. The same can be said of prod hosts line, just replacing Dev with Prod.
 
 So, that is the long winded way to explain how I get dynamic-ish inventory files to run Ansible playbooks and ad-hoc tasks against. Let me know if you are doing something similar, or better in the comments below.
+
+Ask me about becoming a <a href="https://access.redhat.com/accelerators" target="_blank">Red Hat Accelerator!</a>
+
+<a href="https://access.redhat.com/accelerators" target="_blank"><img src="/images/image1.png" width="109" height="122" /></a>
