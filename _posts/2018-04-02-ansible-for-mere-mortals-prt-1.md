@@ -66,7 +66,7 @@ Python2 - 2.6+
 sftp - If this is not available in your environment, you can switch to scp in `ansible.cfg`
 
 ### Setting up ssh
-One thing you're going to want to do at this point, is set up host keys across your environment so ansible can connect and run the tasks that it'll need to run. If you have root keys everywhere, that's an option, though I don't recommend doing it this way. Instead, make sure your user exists across the entire environment, install your public ssh key, and use the ansible built-in become: yes, to ssh (via keys) and sudo to run the tasks. In fact, if you currently have root keys set up, this would be a great way to start phasing that out. Once that's done we can go a head and start on the other items of the list. If you need help setting up keys, check out [this post](https://dkalaluhi.github.io/using-ssh-via-keys/) to get started.
+One thing you're going to want to do at this point, is set up host keys across your environment so ansible can connect and run the tasks that it'll need to run. If you have root keys everywhere, that's an option, though I don't recommend doing it this way. Instead, make sure your user exists across the entire environment, install your public ssh key, and use the ansible built-in become: yes, to ssh (via keys) and sudo to run the tasks. In fact, if you currently have root keys set up, this would be a great way to start phasing that out. Once that's done we can go ahead and start on the other items of the list. If you need help setting up keys, check out [this post](https://dkalaluhi.github.io/using-ssh-via-keys/) to get started.
 
 *NOTE*: In order to use `become` make sure our admins are in the wheel group.
 
