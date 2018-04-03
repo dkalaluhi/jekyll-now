@@ -82,4 +82,6 @@ As always, feel free to contact me via [twitter](https://twitter.com/dkalaluhi) 
 
 Ask me about becoming a <a href="https://access.redhat.com/accelerators" target="_blank">Red Hat Accelerator!</a>
 
+<a href="https://access.redhat.com/accelerators" target="_blank"><img src="/images/image1.png" width="109" height="122" /></a>
+
 {% include series.html %}
