@@ -40,7 +40,7 @@ This is probably the easiest part of all of this. From a RHEL7 system, you need 
 
 <div class="panel panel-warning">
     <div class="panel-heading"> Warning </div>
-    <div class="panel-body">The repository, server-extras is being deprecated in a future relase of RHEL7. Install Ansible from either EPEL or from the Ansible repository</div>
+    <div class="panel-body">The Ansible binaries in server-extras is being deprecated in a future relase of RHEL7. Install Ansible from either EPEL or from the Ansible repository</div>
 
 </div>
 
