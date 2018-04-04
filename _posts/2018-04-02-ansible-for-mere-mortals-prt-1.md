@@ -36,7 +36,13 @@ What is really needed here, for all of this magic to work, is; The Ansible binar
 
 ## Installing Ansible Control Node
 
-This is probably the easiest part of all of this. From a RHEL or RHEL like system, you need make sure the _server-extras_ repository is enabled, then just install ansible with yum.
+This is probably the easiest part of all of this. From a RHEL7 system, you need make sure the _server-extras_ repository is enabled, then just install ansible with yum.
+
+<div class="panel panel-warning">
+    <div class="panel-heading"> Warning:</div>
+    <div class="panel-body">The repository, server-extras is being deprecated in a future relase of RHEL7. Install Ansible from either EPEL or from the Ansible repository</div>
+
+</div>
 
 ### Control Node requirements
 Python2 - Either 2.6 or 2.7
@@ -45,7 +51,11 @@ Python3 - 3.5+
 
 Depending on what you're used to running, what's required to run in your environment, or what you are trying to learn, this is completely up to you. I prefer python3, but that's also what I'm trying to learn. 
 
-_Note:_ Ansible 2.2 introduces a tech preview of support for Python3. For more information, see [Python3 Support](http://docs.ansible.com/ansible/latest/python_3_support.html)
+<div class="panel panel-info">
+    <div class="panel-heading"> Note:</div>
+    <div class="panel-body"> Ansible 2.2 introduces a tech preview of support for Python3. For more information, see [Python3 Support](http://docs.ansible.com/ansible/latest/python_3_support.html)</div>
+</div>
+
 
 ### RHEL7
 {% highlight shell %}
@@ -56,6 +66,11 @@ $ yum install -y ansible
 
 ### RHEL6 based system
 The installs for RHEL6 systems are still located in EPEL since extras is not part of version 6.
+
+<div class="panel panel-info">
+	<div class="panel-heading"> Note:</div>
+	<div class="panel-body">For fresh installs, I would recommend just starting with RHEL7. This should result in less re-work for you when you have to make the change from RHEL6 to RHEL7.</div>
+</div>
 
 
 ## Configuring Managed Nodes
@@ -68,9 +83,15 @@ sftp - If this is not available in your environment, you can switch to scp in `a
 ### Setting up ssh
 One thing you're going to want to do at this point, is set up host keys across your environment so ansible can connect and run the tasks that it'll need to run. If you have root keys everywhere, that's an option, though I don't recommend doing it this way. Instead, make sure your user exists across the entire environment, install your public ssh key, and use the ansible built-in become: yes, to ssh (via keys) and sudo to run the tasks. In fact, if you currently have root keys set up, this would be a great way to start phasing that out. Once that's done we can go ahead and start on the other items of the list. If you need help setting up keys, check out [this post](https://dkalaluhi.github.io/using-ssh-via-keys/) to get started.
 
-*NOTE*: In order to use `become` make sure our admins are in the wheel group.
+<div class="panel panel-info">
+	<div class="panel-heading"> Note: </div>
+	<div class="panel-body">In order to use `become` make sure our admins are in the wheel group.</div>
+</div>
 
-*NOTE*: `become:` is superseding the old method `sudo:`. `sudo:` will still work, for now, but this is a fresh install, so just use `become: yes`.
+<div class="panel panel-info">
+	<div class="panel-heading"> Note: </div>
+	<div class="panel-body">`become:` is superseding the old method `sudo:`. `sudo:` will still work, for now, but this is a fresh install, so just use `become: yes`.</div>
+</div>
 
 This will have to be done all of the managed nodes in your environment. If there are already root keys deployed, a simple one liner to get that file out there, will work. Now is the time to do it, by the end of this, we'll be removing all of the root keys from our managed systems.
 
