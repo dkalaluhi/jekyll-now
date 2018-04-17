@@ -105,4 +105,9 @@ Ask me about becoming a <a href="https://access.redhat.com/accelerators" target=
 
 <a href="https://access.redhat.com/accelerators" target="_blank"><img src="/images/image1.png" width="109" height="122" /></a>
 
+
+### Resources
+* [Ansible deprecated in Extras](https://access.redhat.com/articles/3359651)
+* [Download and install Red Hat Ansible Engine](https://access.redhat.com/articles/3359651)
+
 {% include series.html %}
