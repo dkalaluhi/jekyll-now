@@ -36,11 +36,11 @@ What is really needed here, for all of this magic to work, is; The Ansible binar
 
 ## Installing Ansible Control Node
 
-This is probably the easiest part of all of this. From a RHEL7 system, you need make sure the _server-extras_ repository is enabled, then just install ansible with yum.
+This is probably the easiest part of all of this. From a RHEL7 system, you need make sure the __rhel-7-server-ansible-VERSION-rpms__ repository is enabled, then just install ansible with yum.
 
 <div class="panel panel-warning">
     <div class="panel-heading"> Warning </div>
-    <div class="panel-body">The Ansible binaries in server-extras is being deprecated in a future relase of RHEL7. Install Ansible from either EPEL or from the Ansible repository</div>
+    <div class="panel-body">The Ansible binaries in server-extras is deprecated as of RHEL7.5. Install Ansible from either EPEL or from the Ansible repository which is now rhel-7-server-ansible-VERSION-rpms</div>
 
 </div>
 
