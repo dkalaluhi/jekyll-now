@@ -53,7 +53,7 @@ Depending on what you're used to running, what's required to run in your environ
 
 <div class="panel panel-info">
     <div class="panel-heading"> Note </div>
-    <div class="panel-body"> Ansible 2.2 introduces a tech preview of support for Python3. For more information, see [Python3 Support](http://docs.ansible.com/ansible/latest/python_3_support.html)</div>
+    <div class="panel-body"> Ansible 2.2 introduces a tech preview of support for Python3. For more information, see Python3 Support at, http://docs.ansible.com/ansible/latest/python_3_support.html</div>
 </div>
 
 
@@ -85,12 +85,12 @@ One thing you're going to want to do at this point, is set up host keys across y
 
 <div class="panel panel-info">
 	<div class="panel-heading"> Note </div>
-	<div class="panel-body">In order to use `become` make sure our admins are in the wheel group.</div>
+	<div class="panel-body">In order to use become make sure our admins are in the wheel group.</div>
 </div>
 
 <div class="panel panel-warning">
 	<div class="panel-heading"> Warning </div>
-	<div class="panel-body">`become:` is superseding the old method `sudo:`. `sudo:` will still work, for now, but this is a fresh install, so just use `become: yes`.</div>
+	<div class="panel-body">become: is superseding the old method sudo:. sudo: will still work, for now, but this is a fresh install, so just use become: yes.</div>
 </div>
 
 This will have to be done all of the managed nodes in your environment. If there are already root keys deployed, a simple one liner to get that file out there, will work. Now is the time to do it, by the end of this, we'll be removing all of the root keys from our managed systems.

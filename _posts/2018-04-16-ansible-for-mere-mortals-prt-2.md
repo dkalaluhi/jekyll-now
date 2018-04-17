@@ -53,7 +53,7 @@ webnode2.example.com | UNREACHABLE! => {
 
 {% endhighlight %}
 
-Well, that's not good! Oh, right! I don't have an account on this managed node and I didn't elevate myself. Now there are two ways to do this. If you have your user everwhere, with your public key deployed you can use --become --ask-become-pass. That command looks like this: `ansible -m ping weservers --become --ask-become-pass`. If you don't and you're using root keys everywhere, just toss a sudo in front and you'll be good as gold.
+Well, that's not good! Oh, right! I don't have an account on this managed node and I didn't elevate myself. Now there are two ways to do this. If you have your user everwhere, with your public key deployed you can use `--become` `--ask-become-pass`. That command looks like this: `ansible -m ping weservers --become --ask-become-pass`. If you don't and you're using root keys everywhere, just toss a sudo in front and you'll be good as gold.
 
 {% highlight shell %}
 ...]$ sudo ansible -m ping webservers
@@ -74,7 +74,7 @@ Ok great! We can do the same thing with our database group, or we can do everyon
 
 <div class="panel panel-note">
     <div class="panel-heading"> NOTE </div>
-    <div class="panel-body">You can read more about the `ping` module <a href="https://docs.ansible.com/ansible/2.4/ping_module.html" target=_blank>here</a> </div>
+    <div class="panel-body">You can read more about the ping module at, https://docs.ansible.com/ansible/2.4/ping_module.html </div>
 
 </div>
 
